@@ -11,7 +11,7 @@ export default function Gallery() {
 
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-white mb-3">
+          <h2 className="text-4xl font-bold text-white mb-3 !text-white">
             Trabajos Realizados 📸
           </h2>
           <p className="text-slate-400">Algunos de nuestros proyectos completados con éxito</p>

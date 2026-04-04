@@ -31,7 +31,7 @@ export default function Services() {
           <h2 className="text-4xl font-bold text-slate-900 mb-3 dark:text-white">
             Nuestros Servicios ⚙️
           </h2>
-          <p className="text-slate-600 text-lg">Soluciones completas en gas y plomería</p>
+          <p className="text-slate-600 text-lg">Soluciones completas en gas, agua y plomería</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

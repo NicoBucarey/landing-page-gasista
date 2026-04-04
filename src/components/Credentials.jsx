@@ -13,7 +13,7 @@ export default function Credentials() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-6 mb-6">
           <div className="bg-emerald-50 p-6 rounded-lg border-l-4 border-emerald-500">
             <h3 className="font-semibold text-slate-900 mb-3">Servicios de Gas</h3>
             <ul className="space-y-2 text-slate-700">
@@ -30,6 +30,18 @@ export default function Credentials() {
               <li>✓ Edificios y comercios</li>
               <li>✓ Instituciones públicas</li>
             </ul>
+          </div>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-6">
+          <div className="bg-amber-50 p-6 rounded-lg border-l-4 border-amber-500">
+            <h3 className="font-semibold text-slate-900 mb-2">🛡️ Trabajos con Garantía</h3>
+            <p className="text-slate-700">Realizamos todos nuestros trabajos con garantía de calidad y profesionalismo.</p>
+          </div>
+
+          <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
+            <h3 className="font-semibold text-slate-900 mb-2">💰 Presupuesto sin Cargo</h3>
+            <p className="text-slate-700">Consultanos sin compromiso. Realizamos presupuestos sin cargo para todos nuestros servicios.</p>
           </div>
         </div>
 
