@@ -28,7 +28,7 @@ export default function Services() {
 
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-slate-900 mb-3">
+          <h2 className="text-4xl font-bold text-slate-900 mb-3 dark:text-white">
             Nuestros Servicios ⚙️
           </h2>
           <p className="text-slate-600 text-lg">Soluciones completas en gas y plomería</p>
@@ -39,7 +39,7 @@ export default function Services() {
         {services.map((service, index) => (
           <div
             key={index}
-            className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition border border-slate-200 hover:border-emerald-300"
+            className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition border border-slate-200 hover:border-emerald-300 flex flex-col items-center text-center"
           >
             <div className="text-6xl mb-4">{service.icon}</div>
             <h3 className="text-xl font-semibold mb-2 text-slate-900">

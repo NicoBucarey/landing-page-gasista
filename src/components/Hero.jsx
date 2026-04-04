@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 
 export default function Hero() {
 
-  const phone = "549XXXXXXXXXX"
+  const phone = "5492995284941"
 
   const whatsappLink = `https://wa.me/${phone}?text=Hola,%20te%20contacto%20por%20los%20servicios`
 
@@ -48,7 +48,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-2xl w-full text-center">
 
         <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-          <span className="text-white">Servicios de</span> <span className="text-emerald-400">Gas y Plomería</span>
+          <span className="text-white">Servicios de</span> <span className="text-emerald-400">Gas, Agua y Plomería</span>
         </h1>
 
         <p className="text-xl text-slate-200 mb-2 font-semibold">

@@ -5,7 +5,7 @@ export default function Credentials() {
       <div className="max-w-3xl mx-auto">
 
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-slate-900 mb-4">
+          <h2 className="text-4xl font-bold text-slate-900 mb-4 dark:text-white">
             Carlos Barros - Gasista Matriculado 🔧
           </h2>
           <p className="text-lg text-slate-600">
