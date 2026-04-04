@@ -42,7 +42,7 @@ export default function Services() {
             className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition border border-slate-200 hover:border-emerald-300 flex flex-col items-center text-center"
           >
             <div className="text-6xl mb-4">{service.icon}</div>
-            <h3 className="text-xl font-semibold mb-2 text-slate-900">
+            <h3 className="text-xl font-semibold mb-2 text-slate-900 !text-slate-900">
               {service.title}
             </h3>
 

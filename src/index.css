@@ -67,12 +67,12 @@ h2,
 h3 {
   font-family: var(--heading);
   font-weight: 500;
-  color: #1e293b;
+  color: #1e293b !important;
 }
 
 @media (prefers-color-scheme: dark) {
   h3 {
-    color: #f8fafc;
+    color: #f8fafc !important;
   }
 }
 
