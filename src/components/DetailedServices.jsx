@@ -37,10 +37,10 @@ export default function DetailedServices() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-slate-200 hover:border-blue-400"
+              className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-slate-200 hover:border-blue-400 flex flex-col items-center text-center"
             >
-              <div className="text-5xl mb-3">{service.icon}</div>
-              <h3 className="text-xl font-semibold mb-2 text-slate-900">
+              <div className="text-5xl mb-3 flex justify-center w-full">{service.icon}</div>
+              <h3 className="text-xl font-semibold mb-2 text-slate-900 !text-slate-900">
                 {service.title}
               </h3>
               <p className="text-slate-600 leading-relaxed">

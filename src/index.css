@@ -70,9 +70,17 @@ h3 {
   color: #1e293b !important;
 }
 
+h3 {
+  color: #1e293b !important;
+}
+
 @media (prefers-color-scheme: dark) {
-  h3 {
+  h1,
+  h2 {
     color: #f8fafc !important;
+  }
+  h3 {
+    color: #1e293b !important;
   }
 }
 
