@@ -9,7 +9,7 @@ export default function Location() {
       <div className="max-w-5xl mx-auto">
         
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-slate-900 mb-3">
+          <h2 className="text-4xl font-bold text-slate-900 mb-3 !text-slate-900">
             Nuestra Ubicación 📍
           </h2>
         </div>

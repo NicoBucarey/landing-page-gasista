@@ -28,7 +28,7 @@ export default function Services() {
 
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-slate-900 mb-3 dark:text-white">
+          <h2 className="text-4xl font-bold text-slate-900 mb-3 dark:text-white !text-slate-900">
             Nuestros Servicios ⚙️
           </h2>
           <p className="text-slate-600 text-lg">Soluciones completas en gas, agua y plomería</p>
