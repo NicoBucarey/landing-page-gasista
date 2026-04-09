@@ -27,7 +27,7 @@ export default function DetailedServices() {
 
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-slate-900 mb-3">
+          <h2 className="text-4xl font-bold text-slate-900 mb-3 !text-slate-900">
             Nuestros Servicios Especializados 🛠️
           </h2>
           <p className="text-slate-600 text-lg">Soluciones integrales con experiencia profesional</p>
@@ -40,7 +40,7 @@ export default function DetailedServices() {
               className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition border border-slate-200 hover:border-blue-400 flex flex-col items-center text-center"
             >
               <div className="text-5xl mb-3 flex justify-center w-full">{service.icon}</div>
-              <h3 className="text-xl font-semibold mb-2 text-slate-900 !text-slate-900">
+              <h3 className="text-xl font-semibold mb-2 text-slate-900 !text-slate-900 w-full">
                 {service.title}
               </h3>
               <p className="text-slate-600 leading-relaxed">

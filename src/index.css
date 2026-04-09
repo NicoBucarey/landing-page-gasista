@@ -84,6 +84,13 @@ h3 {
   }
 }
 
+/* Forzar que los h3 sean siempre oscuro en todas partes */
+h3,
+h3.text-slate-900,
+h3[class*="text-slate"] {
+  color: #1e293b !important;
+}
+
 h1 {
   font-size: 56px;
   letter-spacing: -1.68px;
